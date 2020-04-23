@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>বাংলাদেশ নির্বাচন কমিশন</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+
+	
+</head>
+<body>
+	
+	<h6>সালের নির্বাচনে কাকে বাংলাদেশের প্রধানমন্ত্রী হিসেবে দেখতে চান। আপনার মূল্যবান মতামত টি জানাতে ভোট দিন ।ভোট দিতে ছবির উপর ক্লিক করুন । ধন্যবাদ </h6>
+	<hr>
+	<div class="marka">
+		<div class="morgi">
+			<img src="assets/img/61883324_210038499958319_3161325014821634048_o.jpg" alt="">
+			<h2>মোহাম্মাদ সিরাজুল ইসলাম</h2>
+		</div>
+		<div class="has">
+			<img src="assets/img/pm-file-photo-13-1546250022299.jpg" alt="">
+			<h2>শেখ হাসিনা</h2>
+		</div>
+	</div>
+	<hr>
+	<br>
+	<br>
+	<br>
+	<h1>মোহাম্মাদ সিরাজুল ইসলাম : <span id="morgi"></span></h1>
+	<h1>শেখ হাসিনা : <span id="has"></span></h1>
+	
+	<script src="assets/js/jquery-3.4.1.min.js"></script>	
+	<script>
+		
+		let votm = 1;
+		let voth = 1;
+		
+		$('.morgi img').click(function(){
+			
+			$('span#morgi').text(votm);
+			votm++;
+
+		});
+
+
+		$('.has img').click(function(){
+			
+			$('span#has').text(voth);
+			voth++;
+
+		});
+		
+
+
+	
+	</script>
+</body>
+</html>
